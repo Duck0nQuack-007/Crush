@@ -21,7 +21,6 @@ class Paper {
       this.prevX = e.clientX;
       this.prevY = e.clientY;
       
-      // Ensures tracking continues even if the cursor/finger moves slightly off the paper
       paper.setPointerCapture(e.pointerId);
     });
 
